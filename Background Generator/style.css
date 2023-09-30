@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bodybg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to right, magenta, rgb(5, 174, 241));
+    margin: 100px 0px;
+}
+
+#centerdiv {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin: 50px 120px;
+}
